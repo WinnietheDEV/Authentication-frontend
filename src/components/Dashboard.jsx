@@ -7,7 +7,8 @@ const Dashboard = () => {
     dispatch({ type: "DIRECT_LOGIN" });
   };
 
-  const url = "http://localhost:3000/api/v1/dashboard";
+  const url =
+    "https://authentication-backend-u43z.onrender.com/api/v1/dashboard";
 
   const getDashboard = () => {
     const config = {

@@ -22,8 +22,10 @@ export const Form = () => {
   const userNameContainer = useRef();
   const formRef = useRef();
 
-  const urlLogin = "http://localhost:3000/api/v1/login";
-  const urlRegister = "http://localhost:3000/api/v1/register";
+  const urlLogin =
+    "https://authentication-backend-u43z.onrender.com/api/v1/login";
+  const urlRegister =
+    "https://authentication-backend-u43z.onrender.com/api/v1/register";
 
   const postLogIn = () => {
     const data = {
